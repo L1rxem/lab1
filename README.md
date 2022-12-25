@@ -12,7 +12,7 @@
 
 - Схема процесса авторизации
 
-![autorization scheme](/schemes/1.png "autorization scheme")
+![autorization scheme](/1.png "autorization scheme")
 
 #### Регистрация
 
@@ -20,13 +20,13 @@
 
 - Схема процесса регистрации 
 
-![registration scheme](/schemes/2.png "registration scheme")
+![registration scheme](/2.png "registration scheme")
 
 После успешного завершения регистрации, пользователь может войти на сайт под логином и паролем, которые ранее указывались. После корректного ввода данных, пользователь окажется на странице `profile.php`, где будут отображены все данные, указанные при регистрации. Ниже будет надпись "Выход", нажав на которую, пользователь выйдет из аккаунта и перейдёт на страницу авторизации `index.php`.
 
 ### Структура Базы Данных
 
-![Data_Base Table](/schemes/3.PNG "data_base table")
+![Data_Base Table](3.PNG "data_base table")
 
 Данные зарегистрированых пользователей храняться в базе данных. База данных состоит из следующих полей : `id`, `full_name`, `login`, `email`, `password`, и `avatar`.
 #### Содержимое полей Базы Данных
